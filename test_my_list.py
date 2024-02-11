@@ -26,5 +26,3 @@ class MyListTest(unittest.TestCase):
         self.assertEqual(reverse_list([1, 2, 3]), [3, 2, 1])
         self.assertEqual(reverse_list([20, 4, 1]), [1, 4, 20])
         self.assertEqual(reverse_list([111, 898, 74]), [74, 898, 111])
-
-
